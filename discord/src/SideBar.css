@@ -1,0 +1,87 @@
+.sidebar {
+  display: flex;
+  flex: 0.25;
+  flex-direction: column;
+  background-color: rgb(44, 43, 43);
+  height: 100vh;
+}
+.sidebar__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 15px 0px;
+  padding: 0px 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+.sidebar__header h6 {
+  margin-left: 5px;
+}
+.sidebar__header h2 {
+  font-size: 20px;
+}
+.sidebar__body {
+  flex: 1;
+  border-bottom: 1px solid grey;
+  margin-bottom: 0px;
+}
+.sidebar__streamheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: grey;
+  margin: 0px 0px;
+  padding: 5px;
+  transition: all ease 0.5s;
+}
+.sidebar__streamheader:hover {
+  cursor: pointer;
+  background-color: rgb(160, 134, 20);
+  color: white;
+}
+.sidebar__streamheader h2 {
+  font-size: 20px;
+}
+.sidebar__connect,
+.sidebar__profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: grey;
+  margin: 10px 0px;
+  padding: 0px 10px;
+}
+.sidebar__connect {
+  border-bottom: 1px solid grey;
+}
+.sidebar__connectcolor {
+  color: rgb(168, 140, 11);
+  font-size: 12px;
+}
+.sidebarconnect__info h3 {
+  color: rgb(168, 140, 11);
+}
+.sidebarconnect__info {
+  flex: 1;
+  margin: 5px 25px;
+}
+.sidebarconnect__info h3 {
+  font-size: 18px;
+}
+.sidebar__profile {
+  display: flex;
+  margin-bottom: 50px;
+}
+.sidebar__profilebody {
+  flex: 1;
+  padding: 5px;
+}
+.sidebar__profilebody {
+  margin-left: 10px;
+}
+.sidebar__profilebody h3 {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}

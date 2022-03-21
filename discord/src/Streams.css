@@ -1,0 +1,14 @@
+.streams__body {
+  color: gray;
+  font-size: 16px;
+  padding: 10px;
+  transition: all ease 0.5s;
+}
+.streams__info {
+  font-size: 20px;
+}
+.streams__body:hover {
+  background-color: rgb(160, 134, 20);
+  color: white;
+  cursor: pointer;
+}
